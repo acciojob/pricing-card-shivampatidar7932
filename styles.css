@@ -1,1 +1,52 @@
 /*  your css code here. If applicable */
+/* Card Styles */
+.card {
+  width: 300px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Image Styles */
+ img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Title Styles */
+.card h1 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+/* Pricing Information Styles */
+.card .price {
+  font-size: 18px;
+  color: #007acc;
+  margin: 5px 0;
+}
+
+/* Description Styles */
+.card .description {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+/* Buy Now Button Styles */
+.card .buy-button {
+  padding: 10px 20px;
+  background-color: #007acc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.card .buy-button:hover {
+  background-color: #0055aa;
+}
